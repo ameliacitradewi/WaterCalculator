@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		65235A5629ADDF860084F7FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65235A5529ADDF860084F7FD /* AppDelegate.swift */; };
 		65235A5829ADDF860084F7FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65235A5729ADDF860084F7FD /* SceneDelegate.swift */; };
-		65235A5A29ADDF860084F7FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65235A5929ADDF860084F7FD /* ViewController.swift */; };
-		65235A5D29ADDF860084F7FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65235A5B29ADDF860084F7FD /* Main.storyboard */; };
+		65235A5A29ADDF860084F7FD /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65235A5929ADDF860084F7FD /* CalculateViewController.swift */; };
 		65235A5F29ADDF880084F7FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65235A5E29ADDF880084F7FD /* Assets.xcassets */; };
 		65235A6229ADDF880084F7FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65235A6029ADDF880084F7FD /* LaunchScreen.storyboard */; };
+		65235A7529ADF98F0084F7FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65235A7429ADF98F0084F7FD /* Main.storyboard */; };
+		65844C2A29AE02D5006C5ECC /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65844C2929AE02D5006C5ECC /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		65235A5229ADDF860084F7FD /* WaterReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65235A5529ADDF860084F7FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65235A5729ADDF860084F7FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		65235A5929ADDF860084F7FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		65235A5C29ADDF860084F7FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65235A5929ADDF860084F7FD /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
 		65235A5E29ADDF880084F7FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65235A6129ADDF880084F7FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65235A6329ADDF880084F7FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65235A7429ADF98F0084F7FD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		65844C2929AE02D5006C5ECC /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,30 @@
 			children = (
 				65235A5529ADDF860084F7FD /* AppDelegate.swift */,
 				65235A5729ADDF860084F7FD /* SceneDelegate.swift */,
-				65235A5929ADDF860084F7FD /* ViewController.swift */,
-				65235A5B29ADDF860084F7FD /* Main.storyboard */,
+				65235A6929ADDFB60084F7FD /* Views */,
+				65235A6B29ADDFDA0084F7FD /* Controllers */,
 				65235A5E29ADDF880084F7FD /* Assets.xcassets */,
 				65235A6029ADDF880084F7FD /* LaunchScreen.storyboard */,
 				65235A6329ADDF880084F7FD /* Info.plist */,
 			);
 			path = WaterReminder;
+			sourceTree = "<group>";
+		};
+		65235A6929ADDFB60084F7FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				65235A7429ADF98F0084F7FD /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		65235A6B29ADDFDA0084F7FD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				65235A5929ADDF860084F7FD /* CalculateViewController.swift */,
+				65844C2929AE02D5006C5ECC /* ResultViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +144,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65235A7529ADF98F0084F7FD /* Main.storyboard in Resources */,
 				65235A6229ADDF880084F7FD /* LaunchScreen.storyboard in Resources */,
 				65235A5F29ADDF880084F7FD /* Assets.xcassets in Resources */,
-				65235A5D29ADDF860084F7FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +157,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65235A5A29ADDF860084F7FD /* ViewController.swift in Sources */,
+				65235A5A29ADDF860084F7FD /* CalculateViewController.swift in Sources */,
 				65235A5629ADDF860084F7FD /* AppDelegate.swift in Sources */,
 				65235A5829ADDF860084F7FD /* SceneDelegate.swift in Sources */,
+				65844C2A29AE02D5006C5ECC /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		65235A5B29ADDF860084F7FD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65235A5C29ADDF860084F7FD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		65235A6029ADDF880084F7FD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,8 +305,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +315,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ameliacitra.WaterReminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,8 +337,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +347,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ameliacitra.WaterReminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
