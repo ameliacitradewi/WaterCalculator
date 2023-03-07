@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		65235A5229ADDF860084F7FD /* WaterReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65235A5229ADDF860084F7FD /* WaterCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65235A5529ADDF860084F7FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65235A5729ADDF860084F7FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		65235A5929ADDF860084F7FD /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		65235A4929ADDF860084F7FD = {
 			isa = PBXGroup;
 			children = (
-				65235A5429ADDF860084F7FD /* WaterReminder */,
+				65235A5429ADDF860084F7FD /* WaterCalculator */,
 				65235A5329ADDF860084F7FD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		65235A5329ADDF860084F7FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65235A5229ADDF860084F7FD /* WaterReminder.app */,
+				65235A5229ADDF860084F7FD /* WaterCalculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		65235A5429ADDF860084F7FD /* WaterReminder */ = {
+		65235A5429ADDF860084F7FD /* WaterCalculator */ = {
 			isa = PBXGroup;
 			children = (
 				65235A5529ADDF860084F7FD /* AppDelegate.swift */,
@@ -66,7 +66,7 @@
 				65235A6029ADDF880084F7FD /* LaunchScreen.storyboard */,
 				65235A6329ADDF880084F7FD /* Info.plist */,
 			);
-			path = WaterReminder;
+			path = WaterCalculator;
 			sourceTree = "<group>";
 		};
 		65235A6929ADDFB60084F7FD /* Views */ = {
@@ -89,9 +89,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65235A5129ADDF860084F7FD /* WaterReminder */ = {
+		65235A5129ADDF860084F7FD /* WaterCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65235A6629ADDF880084F7FD /* Build configuration list for PBXNativeTarget "WaterReminder" */;
+			buildConfigurationList = 65235A6629ADDF880084F7FD /* Build configuration list for PBXNativeTarget "WaterCalculator" */;
 			buildPhases = (
 				65235A4E29ADDF860084F7FD /* Sources */,
 				65235A4F29ADDF860084F7FD /* Frameworks */,
@@ -101,9 +101,9 @@
 			);
 			dependencies = (
 			);
-			name = WaterReminder;
+			name = WaterCalculator;
 			productName = WaterReminder;
-			productReference = 65235A5229ADDF860084F7FD /* WaterReminder.app */;
+			productReference = 65235A5229ADDF860084F7FD /* WaterCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -121,7 +121,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 65235A4D29ADDF860084F7FD /* Build configuration list for PBXProject "WaterReminder" */;
+			buildConfigurationList = 65235A4D29ADDF860084F7FD /* Build configuration list for PBXProject "WaterCalculator" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -134,7 +134,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65235A5129ADDF860084F7FD /* WaterReminder */,
+				65235A5129ADDF860084F7FD /* WaterCalculator */,
 			);
 		};
 /* End PBXProject section */
@@ -301,7 +301,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 59X728Y3L6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WaterReminder/Info.plist;
+				INFOPLIST_FILE = WaterCalculator/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = WaterCalculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -313,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ameliacitra.WaterReminder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ameliacitra.WaterCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -333,7 +334,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 59X728Y3L6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WaterReminder/Info.plist;
+				INFOPLIST_FILE = WaterCalculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -345,7 +346,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ameliacitra.WaterReminder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ameliacitra.WaterCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -359,7 +360,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65235A4D29ADDF860084F7FD /* Build configuration list for PBXProject "WaterReminder" */ = {
+		65235A4D29ADDF860084F7FD /* Build configuration list for PBXProject "WaterCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65235A6429ADDF880084F7FD /* Debug */,
@@ -368,7 +369,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65235A6629ADDF880084F7FD /* Build configuration list for PBXNativeTarget "WaterReminder" */ = {
+		65235A6629ADDF880084F7FD /* Build configuration list for PBXNativeTarget "WaterCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65235A6729ADDF880084F7FD /* Debug */,
